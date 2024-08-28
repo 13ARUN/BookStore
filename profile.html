@@ -58,11 +58,13 @@
         </div>
 
         <div class="personal-details">
+            <div class="personalformTitle">
+                <h3>Personal Details</h3>
+                <button id="edit-personal-btn" title="Edit" type="button"><i class="fa-solid fa-pen"></i> Edit</button>
+                <button type="submit" id="save-personal-details"> Save</button>
+
+            </div>
             <form id="personal-details-form" autocomplete="off">
-                <div class="formTitle">
-                    <h3>Personal Details</h3>
-                    <button id="edit-personal-btn" title="Edit" type="button"><i class="fa-solid fa-pen"></i> Edit</button>
-                </div>
                 <label for="fullName">Full Name</label>
                 <input type="text" id="fullName" required value="Poonam Yadav">
                 <label for="email">Email id</label>
@@ -71,6 +73,22 @@
                 <input type="password" id="password" required value="password123">
                 <label for="mobile">Mobile Number</label>
                 <input type="tel" id="mobile" required value="6381513846">
+            </form>
+        </div>
+
+        <div class="address-details">
+            <div class="addressformTitle">
+                <h3>Address Details</h3>
+                <button id="add-address-btn" title="Edit" type="button"><i class="fa-solid fa-plus"></i> Add New Address</button>
+            </div>
+            <form id="address-details-form" autocomplete="off">
+                <div class="eachAddressformTitle">
+                    <h3>Work</h3>
+                    <button id="edit-address-btn" title="Edit" type="button"><i class="fa-solid fa-pen"></i> Edit</button>
+                </div>
+                <label for="address">Address</label>
+                <input type="text" id="fullName" required value="Poonam Yadav">
+
             </form>
         </div>
     </div>

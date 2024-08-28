@@ -7,9 +7,6 @@
     font-style: normal;
 }
 
-/* body{
-    min-width: 500px;
-} */
 
 a{
     text-decoration: none;
@@ -128,19 +125,22 @@ header{
     width: 90%;
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 35px;
 }
 
 #personal-details-form{
     display: flex;
     width: 50%;
-    min-width: 400px;
+    min-width: 250px;
     flex-direction: column;
 }
 
-.formTitle{
+.personalformTitle{
     display: flex;
     margin-bottom: 20px;
     gap: 20px;
+    width: 50%;
+    min-width: 250px;
 }
 
 #edit-personal-btn{
@@ -155,11 +155,70 @@ header{
 #personal-details-form label {
     margin-bottom: 5px;
     color: #333;
-    height: 15%;
+    height: 15px;
     font-size: 12px;
 }
 
 #personal-details-form input {
+    padding: 10px;
+    margin-bottom: 25px;
+    color: #878787;
+    background-color: #F5F5F5;
+    border-color: #E2E2E2;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+#save-personal-details{
+    cursor: pointer;
+    width: 100px;
+    padding: 5px;
+    background-color:  hsl(360, 60%, 40%);
+    color: #ffffff;
+    border-radius: 3px;
+    border: 2px solid  hsl(360, 60%, 10%);
+}
+
+.address-details{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.addressformTitle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 50%;
+    min-width: 250px;
+}
+
+#add-address-btn{
+    border:1px solid #A03037;
+    padding: 5px;
+    background: transparent;
+    color: #A03037;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#address-details-form{
+    display: flex;
+    width: 50%;
+    min-width: 250px;
+    flex-direction: column;
+}
+
+#address-details-form label {
+    margin-bottom: 5px;
+    color: #333;
+    height: 15%;
+    font-size: 12px;
+}
+
+#address-details-form input {
     padding: 10px;
     margin-bottom: 10px;
     color: #878787;
@@ -170,12 +229,28 @@ header{
     border-radius: 3px;
 }
 
+.eachAddressformTitle{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 50%;
+}
+
+#edit-address-btn{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #A03037;
+    cursor: pointer;
+    font-weight: 500;
+}
+
 
 
 footer{
     background-color: hsl(356, 20%, 15%);
     height: 50px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
